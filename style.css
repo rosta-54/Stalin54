@@ -1,0 +1,149 @@
+body {
+
+
+}
+.block1 {
+    display: inline-block;
+    width: 70%;
+    height: 40px;
+    background: rgba(237, 237, 237, 0.25);
+    float:left;
+
+}
+.block2 {
+     width: 30%;
+     display: inline-block;
+     float:right;
+     height: 40px;
+     background: rgba(237, 237, 237, 0.25);
+
+ }
+.philadelphia {
+
+width: 100px;
+    height: 20px;
+    margin-left:20px;
+    margin-top:10px;
+    float:left;
+    color: white;
+
+}
+.philadelphia1 {
+    color: white;
+    background: black;
+
+}
+
+.Toll-free{
+    width: 200px;
+    height: 20px;
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+
+}
+
+.Industrial {
+    float:left;
+    width: 350px;
+    height: 20px;
+
+    margin-top:10px;
+}
+.letter
+{
+    display: inline-block;
+    margin-top:10px;
+    float:left;
+
+}
+.yootube {
+    margin-top:10px;
+    float:left;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+.Google {
+    margin-top:10px;
+    float:left;
+    margin-left: 20px;
+    display: inline-block;
+}
+.Ln {
+    margin-top:10px;
+    float:left;
+    margin-left: 20px;
+    display: inline-block;
+
+
+}
+.twitter {
+    margin-top:10px;
+    float:left;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+
+
+.block3{
+    display:inline-block;
+width: 100%;
+
+    height: 150px;
+}
+
+.logo {
+    display: inline-block;
+   width: 35%;
+    float:left;
+    height: 100px;
+
+
+}
+span{
+
+    display: inline-block;
+
+
+}
+.static {
+    width: 64%;
+    display: inline-block;
+    float: right;
+
+}
+
+
+li {
+    display: inline-block;
+   float: left;
+    margin-left: 50px;
+
+}
+
+
+.title
+{
+
+
+
+}
+.Subtitle {
+
+position: absolute;
+}
+.first
+{
+
+    margin-left: 40px;
+
+}
+p {
+
+    display: inline-block;
+
+}
+
+
