@@ -7,7 +7,7 @@ body {
     display: inline-block;
     width: 70%;
     height: 40px;
-    background: rgba(237, 237, 237, 0.25);
+    background: #EDEDED;
     float:left;
 
 }
@@ -16,7 +16,7 @@ body {
      display: inline-block;
      float:right;
      height: 40px;
-     background: rgba(237, 237, 237, 0.25);
+     background: #EDEDED;
 
  }
 .philadelphia {
