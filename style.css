@@ -1,190 +1,272 @@
+      /*      Начало    */
+
+
 body {
-
-
+    font: 400 14px/1.5 'Hind', sans-serif;
+    color: #565655;
 }
-.block1 {
 
+ul {
+    list-style: none;
+}
+
+ul li {
     display: inline-block;
-    width: 70%;
-    height: 40px;
-    background: #EDEDED;
-    float:left;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
 
 }
-.block2 {
-     width: 30%;
-     display: inline-block;
-     float:right;
-     height: 40px;
-     background: #EDEDED;
 
+
+
+
+
+
+
+      * {
+          margin: 0;
+          padding: 0;
+      }
+      /*    HEADER   */
+      body {
+
+      }
+
+ .Block {
+     font-size: 14px;
  }
-.philadelphia {
 
-width: 100px;
-    height: 20px;
-    margin-left:20px;
-    margin-top:10px;
-    float:left;
-    color: white;
+      .block1 {
+
+
+          display: inline-block;
+          width: 70%;
+
+          float:left;
+          white-space: nowrap;
+          height: 65px;
+          background-color: #ededed;
+
+      }
+      .block2 {
+
+          width: 30%;
+          display: inline-block;
+          float:right;
+          height: 65px;
+          background: #EDEDED;
+
+
+
+      }
+      .philadelphia {
+
+          width: 120px;
+          height: 30px;
+          margin-left:90px;
+          margin-top:20px;
+          float:left;
+          color: white;
+          border-radius: 5%;
+
+          background: black;
+
+
+      }
+
+
+      .Toll-free{
+          width: 200px;
+          height: 20px;
+          float:left;
+          margin-left:30px;
+          margin-top:20px;
+
+      }
+
+      .Industrial {
+          float:left;
+          width: 350px;
+          height: 20px;
+
+          margin-top:20px;
+      }
+
+      .letter
+      {
+
+          display: inline-block;
+          margin-top:20px;
+          float:left;
+
+      }
+      .youtube {
+          margin-top:20px;
+          float:left;
+          margin-left: 20px;
+          display: inline-block;
+
+      }
+      .Google {
+          margin-top:20px;
+          float:left;
+          margin-left: 20px;
+          display: inline-block;
+      }
+      .Ln {
+          margin-top:20px;
+          float:left;
+          margin-left: 20px;
+          display: inline-block;
+
+
+      }
+      .twitter {
+          margin-top:20px;
+          float:left;
+          margin-left: 20px;
+          display: inline-block;
+      }
+
+
+
+.fa-angle-down {
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.mobile-menu {
+
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+    display: none;
 
 }
-.philadelphia1 {
-    color: white;
-    background: black;
 
-}
-
-.Toll-free{
-    width: 200px;
-    height: 20px;
-    float:left;
-    margin-left:20px;
-    margin-top:10px;
-
-}
-
-.Industrial {
-    float:left;
-    width: 350px;
-    height: 20px;
-
-    margin-top:10px;
-}
-.letter
-{
-    display: inline-block;
-    margin-top:10px;
-    float:left;
-
-}
-.yootube {
-    margin-top:10px;
-    float:left;
-    margin-left: 20px;
-    display: inline-block;
-
-}
-.Google {
-    margin-top:10px;
-    float:left;
-    margin-left: 20px;
-    display: inline-block;
-}
-.Ln {
-    margin-top:10px;
-    float:left;
-    margin-left: 20px;
-    display: inline-block;
-
-
-}
-.twitter {
-    margin-top:10px;
-    float:left;
-    margin-left: 20px;
-    display: inline-block;
-}
-
-
-
-.block3{
-    display:inline-block;
-width: 100%;
-
-    height: 100px;
-}
-
+/****   BLOCK2   */
 .logo {
-    display: inline-block;
-   width: 35%;
-    float:left;
-    height: 100px;
+    padding: 29px 100px;
+    background: #fff;
+    height: 150px;
+}
 
+.logo1 {
+    padding-top: 30px;
+    float: left;
 
 }
-span{
 
-    display: inline-block;
-
-
-}
 .static {
-    width: 64%;
-    display: inline-block;
     float: right;
+    margin-top: 17px;
+}
+
+.title {
+    margin-top: 30px;
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.fa-check-circle-o {
+    margin-top:30px;
+}
+.static li p:first-of-type {
+    float: left;
+    margin-right: 15px;
+    color: #000;
+    font-size: 18px;
+
 
 }
 
-
-li {
+.static li p:last-of-type {
     display: inline-block;
-   float: left;
-    margin-left: 50px;
+}
 
+.static p > span {
+    display: block;
+}
+
+.static ul li {
+    padding-right: 35px;
+    border-right: 1px solid #e6e6e6;
+    margin-right: 20px;
+}
+
+.static ul li:last-of-type {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 
-.title
-{
+/*  BLOCK3  */
 
-
-
-}
-.Subtitle {
-
-position: absolute;
-}
-.first
-{
-
-    margin-left: 40px;
+.navigation {
+    background: #000000;
+    padding: 0 100px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 99;
+height: 50px;
 
 }
-p {
 
+.navigation nav {
+    float: left;
+
+}
+
+nav li a {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 16px 16px;
     display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+
+
 
 }
+nav li a:before{
+    content: '';
+    position: absolute;
+    height: 7px;
+    width: 0;
+    bottom: 0;
+    background: #bd2631;
+    left: 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
 
-.menu
-{
+    -o-transition: all .5s;
+    transition: all .5s;
 
-    display: inline-block;
+
+}
+nav li a:hover:before {
     width: 100%;
-    height: 50px;
-    color:white;
-    background: black;
-
-}
-div {
-    display: inline-block;
 
 }
 
 
 .search {
-    float:right;
-    margin-top: 10px;
-    margin-right: 50px;
-}
-a {
-text-decoration: none;
-    color: white;
-
-}
-.navigation {
-    float: left;
-    margin-top: 10px;
-
-   margin-left: 20px;
-
-}
-.navigation:hover {
-    text-decoration: inherit;
-    color: red;
-    border-bottom: solid;
-    padding-bottom: 14px;
-    border-width: 10px;
-
+    float: right;
+    color: #fff;
+    line-height: 3.5;
+    font-size: 19px;
+    cursor: pointer;
 }
