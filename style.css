@@ -71,7 +71,7 @@ a {
 
           width: 120px;
           height: 30px;
-          margin-left:90px;
+          margin-left:100px;
           margin-top:20px;
           float:left;
           color: white;
@@ -106,6 +106,8 @@ a {
           display: inline-block;
           margin-top:20px;
           float:left;
+          margin-left:90px;
+
 
       }
       .youtube {
@@ -190,6 +192,7 @@ a {
 
 }
 
+
 .static li p:last-of-type {
     display: inline-block;
 }
@@ -220,7 +223,8 @@ a {
     right: 0;
     left: 0;
     z-index: 99;
-height: 50px;
+height: 70px;
+
 
 }
 
@@ -264,9 +268,79 @@ nav li a:hover:before {
 
 
 .search {
+    height: 40px;
+    width:40px;
     float: right;
     color: #fff;
     line-height: 3.5;
     font-size: 19px;
     cursor: pointer;
+
+
+
 }
+.fotki {
+
+    display: inline-block;
+}
+
+.foto {
+height: 445px;
+    display: inline-block;
+}
+.fotka1 {
+width: 50%;
+float: left;
+
+
+}
+.fotka2 {
+    float: left;
+width: 25%;
+}
+.fotka3 {
+    float:right;
+    width: 25%;
+}
+
+.foto2 {height: 440px;
+          display: inline-block;
+      }
+
+      .fotka4 {
+          width: 25%;
+          float: left;
+
+
+      }
+      .fotka5 {
+          float: left;
+          width: 20%;
+      }
+      .fotka6 {
+          float:right;
+          width: 50%;
+      }
+  .foto3 {
+
+      display: inline-block;
+  }
+
+      .fotka7 {
+          width: 50%;
+          float: left;
+
+
+      }
+      .fotka8 {
+          float: left;
+          width: 20%;
+      }
+      .fotka9 {
+          float:right;
+          width: 24%;
+      }
+
+
+
+
