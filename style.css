@@ -241,11 +241,14 @@ h4 {
     background-image: url("img/Фон1.png");
     float: left;
     height: 454px;
-    width: 50%;
+    width: 49%;
+    position: relative;
+
+
 }
 .img2 {
     float:left;
-    width: 20%;
+
 }
 .picture1 {
 float: right;
@@ -255,23 +258,24 @@ float: right;
 .foto2 {
     display: inline-block;
     height: 440px;
+    width: 100%;
 }
 .picture4 {
-    width: 25%;
     float:left;
 }
 
 
 .picture5 {
-    width: 25%;
+
     float: left;
 
 }
 .secondbl{
     background-image: url("img/ФОн6.png");
     float: right;
-    height: 454px;
+    height: 445px;
     width: 50%;
+    position: relative;
 }
 
 
@@ -280,21 +284,23 @@ float: right;
 .foto3 {
     height: 450px;
     display: inline-block;
+    width: 100%;
 }
 .thirdbl{
     background-image: url("img/ФОн7.png");
     float: left;
     height: 454px;
     padding-right: 12px;
-    width: 47%;
+    width: 49%;
+position: relative;
 }
 .picture8 {
-    width: 25%;
+
     float: left;
 }
 
 .picture9 {
-    width: 25%;
+
     float: left;
 }
 
