@@ -406,3 +406,10 @@ position: relative;
     }
 
 }
+
+
+@media screen and (max-width: 431px){
+    .logo1 {
+        margin-left: 0px;
+    }
+}
