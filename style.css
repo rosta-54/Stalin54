@@ -87,20 +87,14 @@ a:hover {
     margin-top: 2px;
 }
 
-.mobile-menu {
-    color: #fff;
-    font-size: 24px;
-    margin-top: 20px;
-    display: none;
-    cursor: pointer;
-}
+
 
 /****   BLOCK2   */
 
 .logo-section {
     padding: 29px 100px;
     background: #fff;
-    height: 90px;
+    height: 80px;
 }
 
 .logo1 {
@@ -150,7 +144,14 @@ a:hover {
 }
 
 /*  BLOCK3  */
+.mobile-menu {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    display: none;
+    cursor: pointer;
 
+}
 .navigation {
     background: #000000;
     padding: 0 100px;
@@ -158,6 +159,8 @@ a:hover {
     right: 0;
     left: 0;
     z-index: 99;
+    height: 80px;
+
 
 
 
@@ -198,9 +201,9 @@ nav li a:hover:before {
     /*border-bottom: 6px solid #bd2631;*/
 }
 
-.current a {
-    /*border-bottom: 6px solid #bd2631;*/
-
+.current  {
+    margin-left: 25px;
+margin-bottom: 20px;
 }
 
 .search {
@@ -245,7 +248,7 @@ h4 {
 
 
 .firstbl{
-    background:url("img/fon1.png"),#000;
+    background:url("img/fon1.png") no-repeat,#000;
     float: left;
     height: 454px;
     width: 49%;
@@ -278,7 +281,7 @@ float: right;
 
 }
 .secondbl{
-    background: url("img/fon6.png"),#000;
+    background: url("img/fon6.png")no-repeat,#000;
     float: right;
     height: 445px;
     width: 50%;
@@ -294,7 +297,7 @@ float: right;
     width: 100%;
 }
 .thirdbl{
-    background: url("img/fon7.png"),#000;
+    background: url("img/fon7.png")no-repeat,#000;
     float: left;
     height: 454px;
     padding-right: 12px;
@@ -325,6 +328,9 @@ position: relative;
 @media screen and (max-width: 996px) {
     .logo1 {
         margin-left: 200px;
+    }
+    .navigation {
+        margin-top:80px;
     }
 }
 
