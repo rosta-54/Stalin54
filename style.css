@@ -5,7 +5,7 @@
 }
 
 body {
-    font: 400 14px/1.5 'Hind', sans-serif;
+    font: 400 16px/1.5 'Hind', sans-serif;
     color: #565655;
 }
 
@@ -59,7 +59,8 @@ a:hover {
 
 .social-icons {
     float: right;
-    margin-top: 7px;
+    margin-top: 8px;
+
 }
 
 .social-icons ul li {
@@ -69,6 +70,7 @@ a:hover {
 .fa-phone,
 .fa-location-arrow {
     color: #000;
+
 }
 
 .city {
@@ -76,6 +78,7 @@ a:hover {
     color: #fff;
     border-radius: 3px;
     padding: 6px 16px;
+    margin-left: 30px;
 }
 
 .fa-angle-down {
@@ -97,21 +100,25 @@ a:hover {
 .logo-section {
     padding: 29px 100px;
     background: #fff;
+    height: 90px;
 }
 
 .logo1 {
     float: left;
+    margin-left: 20px;
 }
 
 .static {
     float: right;
     margin-top: 17px;
+    ;
 }
 
 .title {
     color: #000;
     font-weight: 600;
     font-size: 15px;
+
 }
 
 .static li p:first-of-type {
@@ -133,7 +140,7 @@ a:hover {
 .static ul li {
     padding-right: 35px;
     border-right: 1px solid #e6e6e6;
-    margin-right: 20px;
+
 }
 
 .static ul li:last-of-type {
@@ -225,7 +232,7 @@ h2{
     padding-left: 100px;
 }
 h4 {
-    color: black;
+    color: white;
     padding-left: 50px;
     padding-top: 20px;
 }
@@ -238,7 +245,7 @@ h4 {
 
 
 .firstbl{
-    background-image: url("img/Фон1.png");
+    background:url("img/fon1.png"),#000;
     float: left;
     height: 454px;
     width: 49%;
@@ -271,7 +278,7 @@ float: right;
 
 }
 .secondbl{
-    background-image: url("img/ФОн6.png");
+    background: url("img/fon6.png"),#000;
     float: right;
     height: 445px;
     width: 50%;
@@ -287,7 +294,7 @@ float: right;
     width: 100%;
 }
 .thirdbl{
-    background-image: url("img/ФОн7.png");
+    background: url("img/fon7.png"),#000;
     float: left;
     height: 454px;
     padding-right: 12px;
