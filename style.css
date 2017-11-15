@@ -87,8 +87,6 @@ a:hover {
     margin-top: 2px;
 }
 
-
-
 /****   BLOCK2   */
 
 .logo-section {
@@ -104,8 +102,7 @@ a:hover {
 
 .static {
     float: right;
-    margin-top: 17px;
-    ;
+    margin-top: 17px;;
 }
 
 .title {
@@ -152,6 +149,7 @@ a:hover {
     cursor: pointer;
 
 }
+
 .navigation {
     background: #000000;
     padding: 0 100px;
@@ -160,9 +158,6 @@ a:hover {
     left: 0;
     z-index: 99;
     height: 80px;
-
-
-
 
 }
 
@@ -180,7 +175,8 @@ nav li a {
 
     /*border-bottom: 7px solid transparent;*/
 }
-nav li a:before{
+
+nav li a:before {
     content: '';
     position: absolute;
     height: 7px;
@@ -194,16 +190,16 @@ nav li a:before{
     -o-transition: all .5s;
     transition: all .5s;
 
-
 }
+
 nav li a:hover:before {
     width: 100%;
     /*border-bottom: 6px solid #bd2631;*/
 }
 
-.current  {
+.current {
     margin-left: 25px;
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .search {
@@ -214,106 +210,146 @@ margin-bottom: 20px;
     cursor: pointer;
 }
 
+/*      Fotki */
 
 
+/* Короче нада сделать по два блока на строчку в одном.
+        Значки вынести и сделать фон и задать по 50% ширину блокам и выровнять текс на слайдах*/
 
-
-.pictures{
+.pictures {
     display: inline-block;
-margin-top: 78px;
+    margin-top: 78px;
 }
 
-
-
-
-
-
-
-h2{
+h2 {
     margin-top: 170px;
     color: #bd2631;
     padding-left: 100px;
 }
+
 h4 {
     color: white;
     padding-left: 50px;
     padding-top: 20px;
 }
+
 .foto1 {
     display: inline-block;
     width: 100%;
-    height: 400px;
-
+    height: 440px;
 
 
 }
 
-
-.firstbl{
-    background:url("img/fon1.png") no-repeat,#000;
+.firstbl {
+    background: url("img/fon1.png") no-repeat, #000;
     float: left;
     height: 454px;
-    width: 49%;
-    position: relative;
+    width: 50%;
 
+
+}
+
+.fotki1 {
+    display: inline-block;
+    width: 50%;
+    float: right;
 
 }
 .img2 {
-    float:left;
-margin-top: 2px;
+    width: 25%;
+    float: left;
+    margin-top: 2px;
 }
-.picture1 {
-float: right;
+.img3 {
+    background: white;
+    width: 47%;
+    height: 350px;
+    float: right;
+    text-align: center;
+    padding-top: 100px;
+
+
+
+
+
 }
+
+
 
 
 .foto2 {
     display: inline-block;
-    height: 440px;
     width: 100%;
+    height: 440px;
 }
-.picture4 {
-    float:left;
-}
-
-
-.picture5 {
-
+.fotki2 {
+    display: inline-block;
+    width: 50%;
     float: left;
+}
+
+.img4 {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+
+.img5 {
+    background: white;
+    width: 50%;
+    height: 350px;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
 
 }
-.secondbl{
-    background: url("img/fon6.png")no-repeat,#000;
+
+
+.secondbl {
+    background: url("img/fon6.png") no-repeat, #000;
     float: right;
     height: 448px;
     width: 50%;
-    position: relative;
+
 }
 
-
-
-
 .foto3 {
-    height: 450px;
+
     display: inline-block;
     width: 100%;
 }
-.thirdbl{
-    background: url("img/fon7.png")no-repeat,#000;
+
+
+.thirdbl {
+    background: url("img/fon7.png") no-repeat, #000;
     float: left;
     height: 454px;
-    padding-right: 12px;
-    width: 49%;
-position: relative;
+    width: 50%;
+
 }
-.picture8 {
-
-    float: left;
+.fotki3 {
+    display: inline-block;
+    width: 50%;
+    float: right;
 }
 
-.picture9 {
-
+.img8 {
+    background: #bf232c;
+    width: 50%;
+    height: 403px;
     float: left;
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+.img9 {
+
+    float: right;
+    width: 50%;
+    display: inline-block;
 }
 
 
@@ -324,92 +360,53 @@ position: relative;
 
 @media screen and (max-width: 1114px) {
 
- .social-icons {
- float:left;
- }
+    .social-icons {
+        float: left;
+    }
 }
-
-
-
 
 @media screen and (max-width: 996px) {
     .logo1 {
         margin-left: 200px;
     }
+
     .navigation {
-        margin-top:80px;
+        margin-top: 80px;
     }
 
-
-
-@media screen and  (max-width: 922px){
-   .navigation{
-       height: 140px;
-   }
+}
+@media screen and  (max-width: 922px) {
+    .navigation {
+        height: 140px;
+    }
 }
 
-}
-
-@media screen and (max-width: 904px){
+@media screen and (max-width: 904px) {
     .navigation {
         height: 200px;
     }
 
 }
 
-
 @media screen and (max-width: 800px) {
     .logo1 {
         margin-left: 20px;
     }
+    .firstbl{
+        width: 100%;
+        float: none;
+    }
 }
 
-
-@media screen and  (max-width: 647px){
+@media screen and  (max-width: 647px) {
     .navigation {
-        margin-top:100px;
+        margin-top: 100px;
     }
-
-    @media screen and (max-width: 597px){
-        .navigation {
-            height: 300px;
-        }
-
-    }
-
-
 }
-@media screen and  (max-width: 509px){
+@media screen and (max-width: 597px) {
     .navigation {
-        margin-top:180px;
-    }
-
-}
-@media screen and  (max-width: 496px){
-    .navigation {
-       height:420px;
-    }
-
-}
-@media screen and  (max-width: 394px){
-    .navigation {
-        height: 520px;
+        height: 300px;
     }
 
 }
 
-
-
-@media screen and  (max-width: 365px){
-    .navigation {
-        margin-top: 250px;
-    }
-
-}
-
-
-@media screen and (max-width: 431px){
-    .logo1 {
-        margin-left: 0px;
-    }
-}
