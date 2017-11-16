@@ -360,7 +360,9 @@ h4 {
     .social-icons {
         float: left;
     }
+
 }
+
 
 @media screen and (max-width: 996px) {
     .logo1 {
@@ -470,6 +472,13 @@ h4 {
     .navigation {
         height: 410px;
     }
+
+
+}
+@media screen and (max-width: 434px) {
+   .logo1 {
+       margin-left: 0px;
+   }
 }
 @media screen and (max-width: 394px) {
     .navigation {
