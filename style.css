@@ -213,8 +213,6 @@ nav li a:hover:before {
 /*      Fotki */
 
 
-/* Короче нада сделать по два блока на строчку в одном.
-        Значки вынести и сделать фон и задать по 50% ширину блокам и выровнять текс на слайдах*/
 
 .pictures {
     display: inline-block;
@@ -257,13 +255,13 @@ h4 {
 
 }
 .img2 {
-    width: 25%;
+    width: 50%;
     float: left;
     margin-top: 2px;
 }
 .img3 {
     background: white;
-    width: 47%;
+    width: 50%;
     height: 350px;
     float: right;
     text-align: center;
@@ -338,20 +336,19 @@ h4 {
 .img8 {
     background: #bf232c;
     width: 50%;
-    height: 403px;
+    height: 355px;
     float: left;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
 
 
 }
 .img9 {
 
-    float: right;
+    float: left;
     width: 50%;
-    display: inline-block;
-}
 
+}
 
 
 
@@ -373,17 +370,26 @@ h4 {
     .navigation {
         margin-top: 80px;
     }
+    .foto1 {
+        margin-top: 20px;
+    }
 
 }
 @media screen and  (max-width: 922px) {
     .navigation {
         height: 140px;
     }
+    .foto1 {
+        margin-top: 80px;
+    }
 }
 
 @media screen and (max-width: 904px) {
     .navigation {
         height: 200px;
+    }
+    .foto1 {
+        margin-top: 140px;
     }
 
 }
@@ -392,21 +398,102 @@ h4 {
     .logo1 {
         margin-left: 20px;
     }
-    .firstbl{
+
+}
+@media screen and (max-width: 714px) {
+    .firstbl {
         width: 100%;
-        float: none;
+        height: 445px;
+    }
+    .fotki1 {
+        float:inherit ;
+        width: 100%;
+       height: 445px;
+    }
+
+    .fotki2 {
+        width: 100%;
+        height: 445px;
+
+
+    }
+    .secondbl {
+
+       width: 100%;
+
+        height: 455px;
+    }
+    .foto3 {
+        margin-top: 450px;
+    }
+    .thirdbl {
+        width: 100%;
+
+
+    }
+    .fotki3 {
+        float:left;
+        width: 100%;
     }
 }
+
 
 @media screen and  (max-width: 647px) {
     .navigation {
         margin-top: 100px;
+        height:220px ;
     }
 }
 @media screen and (max-width: 597px) {
     .navigation {
         height: 300px;
     }
+    .firstbl{
+        margin-top: 79px;
+    }
 
 }
+@media screen and (max-width: 509px){
+    .navigation {
 
+        height: 270px;
+    }
+    .logo-section {
+        height: 200px;
+    }
+
+}
+@media screen and (max-width: 496px){
+.firstbl{
+    margin-top: 260px;
+}
+    .navigation {
+        height: 410px;
+    }
+}
+@media screen and (max-width: 394px) {
+    .navigation {
+        height: 510px;
+    }
+    .firstbl{
+        margin-top: 360px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .navigation {
+        height: 550px;
+    }
+}
+@media screen and (max-width: 347px) {
+
+    .logo-section{
+        height:270px ;
+    }
+
+
+}
+@media screen and (max-width: 303px) {
+    .logo-section {
+height: 330px;
+    }
+}
