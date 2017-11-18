@@ -394,7 +394,7 @@ h4 {
 
 @media screen and (max-width: 863px) {
     .logo1 {
-        width: 100%;
+
         height: auto;
     }
     .address-block,
@@ -488,9 +488,9 @@ h4 {
     }
 
 }
-@media screen and (max-width: 348px){
-    .logo  {
-        width: 50%;
+@media screen and (max-width: 366px){
+    .logo1  {
+        width: 100%;
         height: auto;
     }
 }
